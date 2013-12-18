@@ -1,0 +1,158 @@
+EESchema-DOCLIB  Version 2.0  Date: 24/10/2013 20:30:53
+#
+$CMP 74AHC1G14
+D inverting buffer with Schmitt trigger.
+F 74xx/74ahc_ahct1g14.pdf
+$ENDCMP
+#
+$CMP 74HC238
+D Decoder 3 to 8 (active high outputs)
+K TTL DECOD DECOD8
+$ENDCMP
+#
+$CMP 74HC4511
+D Decoder BCD to 7-Segment
+$ENDCMP
+#
+$CMP 74HC4520
+D Dual Binary Up-Counter
+K CMOS
+$ENDCMP
+#
+$CMP 7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP BRIDGE_1
+D Pont de Diodes
+K Pont Diode
+$ENDCMP
+#
+$CMP DIAC
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP DIODE-HEXFRED
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP LM321
+D Op amp.
+K AmpliOp
+F op_amps/tl071.pdf
+$ENDCMP
+#
+$CMP LM358
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+$CMP LM358N
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+$CMP LM4766
+D Op amp
+K Ampliop
+F AmpliOp.sch
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LMC6062
+D Dual Op amp (low power)
+K ampliop
+F op_amps/lmc6062.pdf
+$ENDCMP
+#
+$CMP LMC6082
+D Dual Op amp (low power)
+K ampliop
+F op_amps/lmc6082.pdf
+$ENDCMP
+#
+$CMP NPN_BCE
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP NPN_CBE
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP NPN_EBC
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP PNP_BCE
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP PNP_CBE
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP PNP_EBC
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP RGB-LED-5060
+K LED
+$ENDCMP
+#
+$CMP TIC106
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP TL072
+D Dual Op amp (low power)
+K ampliop
+$ENDCMP
+#
+$CMP TL081
+F op_amps/tl081.pdf
+$ENDCMP
+#
+$CMP TL082
+D Dual Op amp (Cmos)
+K ampliop
+$ENDCMP
+#
+$CMP TL783
+D High Voltage Ajustable Regulator
+K POWER REGUL
+$ENDCMP
+#
+$CMP ZENER-SOT23
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library
