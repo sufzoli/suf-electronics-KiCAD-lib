@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 14/01/2014 23:24:16
+EESchema-DOCLIB  Version 2.0  Date: 23/07/2014 06:23:00
 #
 $CMP 74AHC1G14
 D inverting buffer with Schmitt trigger.
@@ -44,6 +44,12 @@ $ENDCMP
 $CMP DIODE-HEXFRED
 D Diode simple
 K DEV DIODE
+$ENDCMP
+#
+$CMP IRFZ44VBF
+D IRF540N, 100V Vds, 33A Id, HEXFET N-Channel MOSFET, TO220
+K HEXFET N-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf540n.pdf
 $ENDCMP
 #
 $CMP LED
