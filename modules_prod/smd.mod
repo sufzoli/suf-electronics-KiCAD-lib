@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  04/12/2014 15:24:52
+PCBNEW-LibModule-V1  12/12/2014 06:14:37
 # encoding utf-8
 Units mm
 $INDEX
@@ -316,7 +316,7 @@ Po -24.13 -16.256
 $EndPAD
 $EndMODULE DIP-40_1275
 $MODULE HTSSOP-56
-Po 0 0 0 15 54806EAB 00000000 ~~
+Po 0 0 0 15 5483DB54 00000000 ~~
 Li HTSSOP-56
 Sc 0
 AR 
@@ -487,7 +487,7 @@ Sh "51" R 0.22 2.5 0 0 0
 Dr 0 0 -0.9375
 At SMD N 00888000
 Ne 0 ""
-Po -8.5 -8.1
+Po -4.25 -4.05
 $EndPAD
 $PAD
 Sh "52" R 0.22 2.5 0 0 0
@@ -501,7 +501,7 @@ Sh "53" R 0.22 2.5 0 0 0
 Dr 0 0 -0.9375
 At SMD N 00888000
 Ne 0 ""
-Po -10.5 -8.1
+Po -5.25 -4.05
 $EndPAD
 $PAD
 Sh "54" R 0.22 2.5 0 0 0
