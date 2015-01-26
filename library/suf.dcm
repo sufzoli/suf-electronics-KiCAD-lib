@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 23/01/2015 16:55:22
+EESchema-DOCLIB  Version 2.0  Date: 26/01/2015 18:26:49
 #
 $CMP 74AHC1G14
 D inverting buffer with Schmitt trigger.
@@ -105,6 +105,12 @@ F op_amps/lmc6082.pdf
 $ENDCMP
 #
 $CMP MCP6001
+D Op amp.
+K AmpliOp
+F op_amps/tl071.pdf
+$ENDCMP
+#
+$CMP MCP6002
 D Op amp.
 K AmpliOp
 F op_amps/tl071.pdf
