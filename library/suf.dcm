@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 09/02/2015 17:53:54
+EESchema-DOCLIB  Version 2.0  Date: 27/02/2015 05:56:51
 #
 $CMP 74AHC1G14
 D inverting buffer with Schmitt trigger.
@@ -34,6 +34,11 @@ $ENDCMP
 $CMP BRIDGE_1
 D Pont de Diodes
 K Pont Diode
+$ENDCMP
+#
+$CMP CONN_24
+D Symbole general de connexion
+K CONN
 $ENDCMP
 #
 $CMP DIAC
