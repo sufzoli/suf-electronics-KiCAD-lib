@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  22/04/2015 21:32:07
+PCBNEW-LibModule-V1  25/04/2015 09:30:40
 # encoding utf-8
 Units mm
 $INDEX
@@ -66,6 +66,7 @@ L-TOROID-D35X5
 L2_D3.5
 LED3
 LED3-SMALL
+M0516-DEV
 MINIFIT-2x2-90M
 MLL1300S
 MNT_HOLE_2
@@ -112,6 +113,7 @@ SOT-32_V
 SW_EDGE
 SW_PUSH_MICRO
 SW_PUSH_SMALL
+TJCTM24028-SPI
 TO-220_V
 TO-39
 TO-3P_V
@@ -3198,6 +3200,356 @@ Ne 2 "N-0000075"
 Po 1.27 0
 $EndPAD
 $EndMODULE LED3-SMALL
+$MODULE M0516-DEV
+Po 0 0 0 15 553B429D 00000000 ~~
+Li M0516-DEV
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.27 1 1 0 0.15 N V 21 N "M0516-DEV"
+T1 0 1.27 1 1 0 0.15 N V 21 N "VAL**"
+DS 62.865 -17.78 62.865 17.78 0.15 21
+DS 62.865 17.78 -33.655 17.78 0.15 21
+DS -33.655 17.78 -33.655 -17.78 0.15 21
+DS 62.865 -17.78 -33.655 -17.78 0.15 21
+DS 17.78 -17.78 17.78 17.78 0.15 21
+$PAD
+Sh "1" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -15.24
+$EndPAD
+$PAD
+Sh "2" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -12.7
+$EndPAD
+$PAD
+Sh "3" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -15.24
+$EndPAD
+$PAD
+Sh "4" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -12.7
+$EndPAD
+$PAD
+Sh "5" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -15.24
+$EndPAD
+$PAD
+Sh "6" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -12.7
+$EndPAD
+$PAD
+Sh "7" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -15.24
+$EndPAD
+$PAD
+Sh "8" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -12.7
+$EndPAD
+$PAD
+Sh "9" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -15.24
+$EndPAD
+$PAD
+Sh "10" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 -12.7
+$EndPAD
+$PAD
+Sh "11" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -15.24
+$EndPAD
+$PAD
+Sh "12" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 -12.7
+$EndPAD
+$PAD
+Sh "13" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 15.24
+$EndPAD
+$PAD
+Sh "14" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 12.7
+$EndPAD
+$PAD
+Sh "15" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 15.24
+$EndPAD
+$PAD
+Sh "16" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 12.7
+$EndPAD
+$PAD
+Sh "17" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 15.24
+$EndPAD
+$PAD
+Sh "18" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 12.7
+$EndPAD
+$PAD
+Sh "19" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 15.24
+$EndPAD
+$PAD
+Sh "20" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 12.7
+$EndPAD
+$PAD
+Sh "21" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 15.24
+$EndPAD
+$PAD
+Sh "22" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 12.7
+$EndPAD
+$PAD
+Sh "23" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 15.24
+$EndPAD
+$PAD
+Sh "24" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 12.7
+$EndPAD
+$PAD
+Sh "25" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 15.24
+$EndPAD
+$PAD
+Sh "26" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 12.7
+$EndPAD
+$PAD
+Sh "27" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 15.24
+$EndPAD
+$PAD
+Sh "28" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 12.7
+$EndPAD
+$PAD
+Sh "29" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 15.24
+$EndPAD
+$PAD
+Sh "30" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 12.7
+$EndPAD
+$PAD
+Sh "31" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 15.24
+$EndPAD
+$PAD
+Sh "32" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 12.7
+$EndPAD
+$PAD
+Sh "33" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 15.24
+$EndPAD
+$PAD
+Sh "34" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 12.7
+$EndPAD
+$PAD
+Sh "35" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 15.24
+$EndPAD
+$PAD
+Sh "36" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 12.7
+$EndPAD
+$PAD
+Sh "37" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -15.24
+$EndPAD
+$PAD
+Sh "38" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 -12.7
+$EndPAD
+$PAD
+Sh "39" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -15.24
+$EndPAD
+$PAD
+Sh "40" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 -12.7
+$EndPAD
+$PAD
+Sh "41" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -15.24
+$EndPAD
+$PAD
+Sh "42" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -12.7
+$EndPAD
+$PAD
+Sh "43" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -15.24
+$EndPAD
+$PAD
+Sh "44" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -12.7
+$EndPAD
+$PAD
+Sh "45" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -15.24
+$EndPAD
+$PAD
+Sh "46" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -12.7
+$EndPAD
+$PAD
+Sh "47" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -15.24
+$EndPAD
+$PAD
+Sh "48" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -12.7
+$EndPAD
+$EndMODULE M0516-DEV
 $MODULE MINIFIT-2x2-90M
 Po 0 0 0 15 52119C0F 00000000 ~~
 Li MINIFIT-2x2-90M
@@ -5453,6 +5805,175 @@ Ne 0 ""
 Po -3.81 2.54
 $EndPAD
 $EndMODULE SW_PUSH_SMALL
+$MODULE TJCTM24028-SPI
+Po 0 0 0 15 553B3F9A 00000000 ~~
+Li TJCTM24028-SPI
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.27 1 1 0 0.15 N V 21 N "TJCTM24028-SPI"
+T1 0 1.27 1 1 0 0.15 N V 21 N "VAL**"
+DS -32.6 -25 -32.6 25 0.15 21
+DS 36.6 -25 36.6 25 0.15 21
+DS -43 -25 -43 25 0.15 21
+DS -43 25 43 25 0.15 21
+DS 43 25 43 -25 0.15 21
+DS 43 -25 -43 -25 0.15 21
+$PAD
+Sh "" C 5 5 0 0 0
+Dr 3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 40 -22
+$EndPAD
+$PAD
+Sh "" C 5 5 0 0 0
+Dr 3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 40 22
+$EndPAD
+$PAD
+Sh "" C 5 5 0 0 0
+Dr 3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -36.08 22
+$EndPAD
+$PAD
+Sh "" C 5 5 0 0 0
+Dr 3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -36.08 -22
+$EndPAD
+$PAD
+Sh "1" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 -16.51
+$EndPAD
+$PAD
+Sh "2" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 -13.97
+$EndPAD
+$PAD
+Sh "3" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 -11.43
+$EndPAD
+$PAD
+Sh "4" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 -8.89
+$EndPAD
+$PAD
+Sh "5" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 -6.35
+$EndPAD
+$PAD
+Sh "6" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 -3.81
+$EndPAD
+$PAD
+Sh "7" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 -1.27
+$EndPAD
+$PAD
+Sh "8" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 1.27
+$EndPAD
+$PAD
+Sh "9" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 3.81
+$EndPAD
+$PAD
+Sh "10" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 6.35
+$EndPAD
+$PAD
+Sh "11" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 8.89
+$EndPAD
+$PAD
+Sh "12" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 11.43
+$EndPAD
+$PAD
+Sh "13" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 13.97
+$EndPAD
+$PAD
+Sh "14" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -41 16.51
+$EndPAD
+$PAD
+Sh "16" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 40.28 -1.27
+$EndPAD
+$PAD
+Sh "15" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 40.28 -3.81
+$EndPAD
+$PAD
+Sh "17" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 40.28 1.27
+$EndPAD
+$PAD
+Sh "18" C 1.7 1.7 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 40.28 3.81
+$EndPAD
+$EndMODULE TJCTM24028-SPI
 $MODULE TO-220_V
 Po 0 0 0 15 4AD99B76 00000000 ~~
 Li TO-220_V
