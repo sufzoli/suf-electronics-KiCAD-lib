@@ -57,6 +57,12 @@ K HEXFET N-Channel MOSFET
 F http://www.irf.com/product-info/datasheets/data/irf540n.pdf
 $ENDCMP
 #
+$CMP KB817
+D PC817, DIP4, DC Optocoupler, Vce 35V, CTR 50-300%
+K NPN DC Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
 $CMP LED
 K LED
 $ENDCMP
